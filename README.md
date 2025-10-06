@@ -1,0 +1,76 @@
+
+# Optimizing Saudi Used Car Valuation through Machine Learning
+
+Proyek ini memprediksi **harga mobil bekas di Saudi Arabia** menggunakan machine learning. Model yang digunakan meliputi XGBoost, Random Forest, dan Linear Regression, lengkap dengan feature engineering, hyperparameter tuning, dan interpretasi fitur menggunakan SHAP untuk estimasi harga yang akurat dan data-driven.
+
+## Struktur Folder / File
+
+```
+Saudi_Used_Car_Capstone_3_Regression.ipynb   # Notebook eksplorasi, training, evaluasi, SHAP
+app_saudi_used_car.py                        # Aplikasi Streamlit untuk prediksi harga mobil
+custom_transformers.py                        # Script custom transformers
+data_saudi_used_cars.csv                      # Dataset utama
+Saudi_Used_Car_Price_Estimator.joblib        # Model hasil training
+Saudi_Used_Car_Price_Estimator.pkl           # Versi pickle dari model
+requirements.txt                              # List library yang dibutuhkan
+__pycache__/                                  # Folder cache Python (bisa di-ignore)
+```
+
+## Cara Menjalankan
+
+1. Pastikan **Python** dan library yang diperlukan sudah terinstall:  
+   `pandas`, `numpy`, `scikit-learn`, `xgboost`, `shap`, `matplotlib`, `seaborn`, `streamlit`.  
+2. Jalankan aplikasi Streamlit:  
+```bash
+streamlit run app_saudi_used_car.py
+```
+
+> Jika tidak menggunakan virtual environment, pastikan semua library yang dibutuhkan sudah terinstall.
+
+---
+
+## Fitur
+
+- Prediksi harga mobil bekas di Saudi Arabia secara individual.  
+- Model ML: XGBoost, Random Forest, Linear Regression.  
+- Hyperparameter tuning untuk performa optimal.  
+- Interpretasi fitur penting menggunakan SHAP.  
+- Visualisasi prediksi dan insight fitur untuk keputusan berbasis data.  
+
+---
+
+## Dataset
+
+- File utama: `data_saudi_used_cars.csv`  
+- Fitur:
+  - `Type`       : Jenis mobil (SUV, Sedan, Hatchback, dll.)  
+  - `Region`     : Lokasi/daerah penjualan mobil  
+  - `Make`       : Merek mobil  
+  - `Gear_Type`  : Jenis transmisi (Manual/Automatic)  
+  - `Origin`     : Negara asal mobil  
+  - `Options`    : Fitur tambahan/options mobil  
+  - `Year`       : Tahun produksi mobil  
+  - `Engine_Size`: Kapasitas mesin (liter)  
+  - `Mileage`    : Jarak tempuh mobil (km)  
+  - `Negotiable` : Status harga bisa dinegosiasi (True/False)  
+  - `Price`      : Harga mobil (target)  
+
+---
+
+## Notebook
+
+- `Saudi_Used_Car_Capstone_3_Regression.ipynb` berisi eksplorasi data, training model, evaluasi performa, dan analisis SHAP.
+
+---
+
+## Model
+
+- Model tersimpan di file:  
+  - `Saudi_Used_Car_Price_Estimator.joblib`  
+  - `Saudi_Used_Car_Price_Estimator.pkl`  
+
+---
+
+## Kontak
+
+Untuk pertanyaan atau masukan, silakan hubungi **Sandy Rahmanto**.
