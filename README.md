@@ -17,6 +17,7 @@ __pycache__/                                  # Folder cache Python (bisa di-ign
 ```
 
 ## Cara Menjalankan
+---
 
 1. Pastikan **Python** dan library yang diperlukan sudah terinstall
 Install dengan perintah:
@@ -37,9 +38,8 @@ streamlit run app_saudi_used_car.py
 
 > Jika tidak menggunakan virtual environment, pastikan semua library yang dibutuhkan sudah terinstall.
 
----
 
-##Fitur Aplikasi
+## Fitur Aplikasi
 
 - Prediksi harga mobil bekas di Saudi Arabia.
 
