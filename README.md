@@ -22,11 +22,13 @@ __pycache__/                                  # Folder cache Python (bisa di-ign
 Install dengan perintah:
 ```bash
 pip install pandas numpy scikit-learn xgboost shap matplotlib seaborn streamlit
-
+```
 2. Buka terminal / command prompt.
 
 3. Pindah ke folder project, misal:
+```bash
 cd "C:\Users\hp\Downloads\Project"
+```
 
 4. Jalankan aplikasi Streamlit:  
 ```bash
