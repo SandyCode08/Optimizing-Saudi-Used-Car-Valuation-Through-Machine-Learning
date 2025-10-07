@@ -1,11 +1,10 @@
 
 # Optimizing Saudi Used Car Valuation through Machine Learning
 
-<<<<<<< HEAD
 Proyek ini memprediksi **harga mobil bekas di Saudi Arabia** menggunakan machine learning. Model yang digunakan XGBoost lengkap dengan feature engineering, hyperparameter tuning, dan interpretasi fitur menggunakan SHAP untuk estimasi harga yang akurat dan data-driven.
 =======
 Proyek ini memprediksi **harga mobil bekas di Saudi Arabia** menggunakan machine learning. Model yang digunakan meliputi XGBoost, Random Forest, dan Linear Regression, lengkap dengan feature engineering, hyperparameter tuning, dan interpretasi fitur menggunakan SHAP untuk estimasi harga yang akurat dan data-driven.
->>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)
+
 
 ## Struktur Folder / File
 
@@ -21,7 +20,7 @@ __pycache__/                                  # Folder cache Python (bisa di-ign
 ```
 
 ## Cara Menjalankan
-<<<<<<< HEAD
+
 ---
 
 1. Pastikan **Python** dan library yang diperlukan sudah terinstall
@@ -42,14 +41,13 @@ cd "C:\Users\hp\Downloads\Project"
 1. Pastikan **Python** dan library yang diperlukan sudah terinstall:  
    `pandas`, `numpy`, `scikit-learn`, `xgboost`, `shap`, `matplotlib`, `seaborn`, `streamlit`.  
 2. Jalankan aplikasi Streamlit:  
->>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)
+
 ```bash
 streamlit run app_saudi_used_car.py
 ```
 
 > Jika tidak menggunakan virtual environment, pastikan semua library yang dibutuhkan sudah terinstall.
 
-<<<<<<< HEAD
 
 ## Fitur Aplikasi
 
@@ -69,7 +67,7 @@ streamlit run app_saudi_used_car.py
 - Interpretasi fitur penting menggunakan SHAP.  
 - Visualisasi prediksi dan insight fitur untuk keputusan berbasis data.  
 
->>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)
+
 ---
 
 ## Dataset
