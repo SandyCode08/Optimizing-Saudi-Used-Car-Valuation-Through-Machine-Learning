@@ -1,7 +1,11 @@
 
 # Optimizing Saudi Used Car Valuation through Machine Learning
 
+<<<<<<< HEAD
 Proyek ini memprediksi **harga mobil bekas di Saudi Arabia** menggunakan machine learning. Model yang digunakan XGBoost lengkap dengan feature engineering, hyperparameter tuning, dan interpretasi fitur menggunakan SHAP untuk estimasi harga yang akurat dan data-driven.
+=======
+Proyek ini memprediksi **harga mobil bekas di Saudi Arabia** menggunakan machine learning. Model yang digunakan meliputi XGBoost, Random Forest, dan Linear Regression, lengkap dengan feature engineering, hyperparameter tuning, dan interpretasi fitur menggunakan SHAP untuk estimasi harga yang akurat dan data-driven.
+>>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)
 
 ## Struktur Folder / File
 
@@ -17,6 +21,7 @@ __pycache__/                                  # Folder cache Python (bisa di-ign
 ```
 
 ## Cara Menjalankan
+<<<<<<< HEAD
 ---
 
 1. Pastikan **Python** dan library yang diperlukan sudah terinstall
@@ -32,12 +37,19 @@ cd "C:\Users\hp\Downloads\Project"
 ```
 
 4. Jalankan aplikasi Streamlit:  
+=======
+
+1. Pastikan **Python** dan library yang diperlukan sudah terinstall:  
+   `pandas`, `numpy`, `scikit-learn`, `xgboost`, `shap`, `matplotlib`, `seaborn`, `streamlit`.  
+2. Jalankan aplikasi Streamlit:  
+>>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)
 ```bash
 streamlit run app_saudi_used_car.py
 ```
 
 > Jika tidak menggunakan virtual environment, pastikan semua library yang dibutuhkan sudah terinstall.
 
+<<<<<<< HEAD
 
 ## Fitur Aplikasi
 
@@ -46,6 +58,18 @@ streamlit run app_saudi_used_car.py
 - Input user: Type, Region, Make, Gear Type, Origin, Options, Year, Engine Size, Mileage, Negotiable.
 
 - Output: Perkiraan harga mobil secara cepat dan interaktif.
+=======
+---
+
+## Fitur
+
+- Prediksi harga mobil bekas di Saudi Arabia secara individual.  
+- Model ML: XGBoost, Random Forest, Linear Regression.  
+- Hyperparameter tuning untuk performa optimal.  
+- Interpretasi fitur penting menggunakan SHAP.  
+- Visualisasi prediksi dan insight fitur untuk keputusan berbasis data.  
+
+>>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)
 ---
 
 ## Dataset
@@ -82,4 +106,8 @@ streamlit run app_saudi_used_car.py
 
 ## Kontak
 
+<<<<<<< HEAD
 Untuk pertanyaan atau masukan, silakan hubungi **Author**.
+=======
+Untuk pertanyaan atau masukan, silakan hubungi **Sandy Rahmanto**.
+>>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)

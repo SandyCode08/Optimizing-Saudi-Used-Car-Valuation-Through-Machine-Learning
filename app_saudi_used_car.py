@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from custom_transformers import CustomTransformer  
 from custom_transformers import reduce_make, reduce_type, to_int_transform
 from sklearn.preprocessing import FunctionTransformer
 from sklearn.pipeline import Pipeline
@@ -160,3 +161,4 @@ if st.button("Prediksi Harga"):
 
 
 ## python -m streamlit run app_saudi_used_car.py (copy this to the terminal)
+
