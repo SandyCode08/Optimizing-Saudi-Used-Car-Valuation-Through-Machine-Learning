@@ -106,4 +106,4 @@ streamlit run app_saudi_used_car.py
 Untuk pertanyaan atau masukan, silakan hubungi **Author**.
 
 Untuk pertanyaan atau masukan, silakan hubungi **Sandy Rahmanto**.
->>>>>>> 7af9f83 (simpan perubahan lokal sebelum pull)
+
