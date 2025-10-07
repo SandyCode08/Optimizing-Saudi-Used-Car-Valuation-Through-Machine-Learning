@@ -2,12 +2,12 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from custom_transformers import reduce_make, reduce_type, to_int_transform
 from sklearn.preprocessing import FunctionTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from custom_transformers import reduce_make, reduce_type, to_int_transform
 
 # ======================
 # Load pipeline
